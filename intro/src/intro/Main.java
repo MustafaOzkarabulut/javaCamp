@@ -42,8 +42,8 @@ public class Main {
 			{
 				"Hýzlý Kredi",
 				"Mutlu emekli Kredi",
-				"Konut","Çiftçi Kredi",
-				"Çiftçi Kredisi",
+				"Konut",
+				"Çiftçi Kredi",
 				"Msb Kredi",
 				"Meb Kredisi",
 				"Kültür baknalýðý kredisi"
@@ -53,6 +53,7 @@ public class Main {
 		for(String kredi : krediler) {
 			System.out.println(kredi);
 		}
+		System.out.println("Arrays yöntem döndürme bitti");
 		
 		for(int i = 0; i<krediler.length;i++) {
 			System.out.println(krediler[i]);
