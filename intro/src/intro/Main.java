@@ -50,7 +50,7 @@ public class Main {
 			};
 		
 		//foreach
-		for(String kredi : krediler) {
+		for(String kredi : krediler) {   //Bunun anlamý krediler dizisindeki her bir elemaný gez
 			System.out.println(kredi);
 		}
 		System.out.println("Arrays yöntem döndürme bitti");
