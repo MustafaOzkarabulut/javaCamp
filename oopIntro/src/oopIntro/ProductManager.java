@@ -5,3 +5,4 @@ public class ProductManager {
 		System.out.println("Sepete eklendi :" + product.getName());
 	}
 }
+//3. günün dökümanlarý 2.gün dökümanlarýnýn içerisine yazýldý

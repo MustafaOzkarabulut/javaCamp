@@ -68,7 +68,6 @@ public class Product {
 	}
 	
 
-	
-	
+	//3. günün dökümanlarý 2.gün dökümanlarýnýn içerisine yazýldý	
 	
 }
