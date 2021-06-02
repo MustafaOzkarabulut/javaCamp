@@ -12,7 +12,7 @@ import lombok.Data;
 @Entity
 @Table(name="job_titles")
 @Data
-public class job {
+public class Job {
 		@Id
 		@GeneratedValue
 		@Column(name="id")
@@ -21,9 +21,9 @@ public class job {
 		@Column(name="title")
 		private String title;
 		
-		public job() {}
+		public Job() {}
 		
-		public job(int id, String title) {
+		public Job(int id, String title) {
 			super();
 			this.id = id;
 			this.title = title;
