@@ -71,17 +71,11 @@ public class JobAdvertisementManager implements JobAdvertisementService{
         return new SuccessResult("Updated");
 	}
 
-
+	
+}
 
 
 //getByEmployers_IdAndJobAdvertisementId(int employersId,int jobAdvertisementId);
 
 
 
-
-
-
-	
-	
-	
-}

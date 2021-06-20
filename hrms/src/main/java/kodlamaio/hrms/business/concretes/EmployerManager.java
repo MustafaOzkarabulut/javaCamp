@@ -35,7 +35,6 @@ public class EmployerManager implements EmployerService{
 		this.employerDao.save(employers);
 		return new SuccessResult("Kayıt Başarılı");
 		
-		
 	}
 
 }
