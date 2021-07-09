@@ -27,7 +27,7 @@ public class UserManager implements UserService{
 		this.userDao.save(user);
 		return new SuccessResult("Kullanıcı Eklendi");
 	}
-
+	
 	@Override
 	public DataResult<User> findByEmail(String email) {
 		
